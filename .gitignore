@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# my own latex sandbox
+latex/
+
+# local data
+data/
