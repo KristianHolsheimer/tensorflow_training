@@ -12,7 +12,7 @@ Solutions to all the exercises are provided inline like so:
 ```python
 # %load sol/ex_foo.py
 ```
-The way to load the exercise is to uncomment the line and run the `%load` magic (see [docs](https://ipython.org/ipython-doc/3/interactive/magics.html#magic-load)). This will load the solution into the cell where the `%load ...` was evaluated. So, these solutions allow you to peek at the correct solution. I advice not to turn to the solutions to quickly. Give yourself a few minutes to think about how you would approach the problem. That way, your mind is primed to soak up every bit of information provided in the solution.
+The way to load the exercise is to uncomment the line and run the `%load` magic (see [docs](https://ipython.org/ipython-doc/3/interactive/magics.html#magic-load)). This will load the solution into the cell where the `%load ...` was evaluated. So, these `%load`s allow you to peek at the correct solution. I advice not to turn to the solutions to quickly. Give yourself a few minutes to think about how you would approach the problem. That way, your mind is primed to soak up every bit of information provided in the solution.
 
 ## Predicting the next character in a string using LSTMs
 
