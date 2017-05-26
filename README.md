@@ -18,11 +18,11 @@ The way to load the exercise is to uncomment the line and run the `%load` magic 
 
 We split up our approach into the following smaller easy-to-follow notebooks:
 
-### [Notebook 1](intro_general.ipynb): Some general background about Tensorflow
-### [Notebook 2](build_your_own_lstm_cell.ipynb): Build your own Long Short-Term Memory (LSTM) cell.
-### [Notebook 3](control_flow_in_tensorflow.ipynb): Control flow in Tensorflow (conditionals and loops).
-### [Notebook 4](text_data_representation.ipynb): Sparse and dense representations of text data.
-### [Notebook 5](build_your_own_rnn.ipynb): Build your own Recurrent Neural Network (RNN).
+* [**Notebook 1**](intro_general.ipynb): Some general background about Tensorflow. **[WIP]**
+* [**Notebook 2**](build_your_own_lstm_cell.ipynb): Build your own Long Short-Term Memory (LSTM) cell.
+* [**Notebook 3**](control_flow_in_tensorflow.ipynb): Control flow in Tensorflow (conditionals and loops).
+* [**Notebook 4**](text_data_representation.ipynb): Sparse and dense representations of text data.
+* [**Notebook 5**](build_your_own_rnn.ipynb): Build your own Recurrent Neural Network (RNN). **[WIP]**
 
 
 
