@@ -8,6 +8,12 @@ Out[2]: 'We always finish each others sentences.'
 ```
 The aim of this course is to build intuition for how the internals work. This means that some fancy techniques are left out to avoid clutter in the presentation.
 
+Solutions to all the exercises are provided inline like so:
+```python
+# %load sol/ex_foo.py
+```
+The way to load the exercise is to uncomment the line and run the `%load` magic (see also [docs](https://ipython.org/ipython-doc/3/interactive/magics.html#magic-load)). This will load the solution into the cell where the `%load ...` was evaluated. So, these solutions allow you to peek at the correct solution. I advice not to turn to the solutions to quickly. Give yourself a few minutes to think about how you would approach the problem. That way, your mind is primed to soak up every bit of information provided in the solution.
+
 ## Predicting the next character in a string using LSTMs
 
 We split up our approach into the following smaller easy-to-follow notebooks:
