@@ -51,7 +51,7 @@ class SentenceEncoder:
     def _encode(self, seq):
         # encode at the character level
         seq_encoded_variable_shape = [
-            [ord(t) + 1 for t in s.encode('ascii', 'replace')] + [0] for s in seq]
+            [ord(t) + 1 for t in s] + [0] for s in seq]
         seqlen = np.array(map(len, seq_encoded_variable_shape), dtype=np.int32)
         max_seqlen = max(seqlen)
 
@@ -71,6 +71,6 @@ class SentenceEncoder:
             for t in s:
                 if t == 0:
                     break
-                string += chr(t - 1)
+                string += unichr(t - 1)
             seq_decoded.append(string)
         return seq_decoded
